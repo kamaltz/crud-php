@@ -57,7 +57,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             </div>
             <div class="form-group">
                 <button type="submit" name="restore" class="btn btn-primary">Restore</button>
-                <button type="submit" name="check_connection" class="btn btn-info">Cek Koneksi Database</button>
             </div>
         </form>
         <?php if ($message): ?>

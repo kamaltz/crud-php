@@ -61,7 +61,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <form action="backup.php" method="post">
             <div class="form-group">
                 <button type="submit" name="backup" class="btn btn-primary">Backup Database</button>
-                <button type="submit" name="check_connection" class="btn btn-info">Cek Koneksi Database</button>
+
             </div>
         </form>
         <?php if ($message): ?>
