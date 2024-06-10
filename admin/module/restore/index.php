@@ -1,12 +1,6 @@
 <?php
 // Konfigurasi database
-$dbhost = 'localhost';
-$dbuser = 'root';
-$dbpass = '';
-$dbname = 'nama_database';
 
-$message = '';
-$connectionMessage = '';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if (isset($_FILES['restore_file']) && isset($_POST['restore'])) {
